@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 80px;
+    background-color: black;
+}
+header h1{
+    color: white;
+    font-weight: 200;
+    display: inline-block;
+    margin:  10px;
+}
+.searchBar{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+.searchBar>input{
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+}
+.searchBar>button{
+    width: 70px;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #7F8487;
+    color: white;
+    border: none;
+}
+main{
+    background-color: #2d2f31;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.bestMovie>p{
+  text-align: center;
+  margin-bottom: 5px;
+}
+ .movieMain{
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.movieMain>img{
+   height: 800px;
+
+}
+.movieMain p {
+    padding: 3px;
+} 
+li{
+    list-style: none;
+}
+p{
+    color: white;
+}
+.listDivClass{
+    position: absolute;
+    top: 53px;
+    right: 100px;
+    background-color: rgb(103, 100, 100);
+   width: 238px;
+}
+.listDivClass>p{
+    padding: 3px 0;
+}
+.oneMovie {
+    width: 50%;
+}
